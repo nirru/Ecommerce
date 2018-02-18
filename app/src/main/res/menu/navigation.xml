@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/title_home"
+        android:showAsAction="always|withText"
+        tools:ignore="AppCompatResource" />
+
+    <item
+        android:id="@+id/navigation_search"
+        android:icon="@drawable/ic_search_black_24dp"
+        android:title="@string/title_search"
+        android:showAsAction="always|withText"
+        tools:ignore="AppCompatResource" />
+
+    <item
+        android:id="@+id/navigation_acount"
+        android:icon="@drawable/ic_account_circle_black_24dp"
+        android:title="@string/title_account"
+        android:showAsAction="always|withText"
+        tools:ignore="AppCompatResource" />
+
+    <item
+        android:id="@+id/navigation_more"
+        android:icon="@drawable/ic_more_vert_black_24dp"
+        android:title="@string/title_more"
+        android:showAsAction="always|withText"
+        tools:ignore="AppCompatResource" />
+
+</menu>
